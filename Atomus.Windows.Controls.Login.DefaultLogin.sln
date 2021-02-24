@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E1201EDA-7B30-4AB8-8559-953DB3F94400}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Controllers", "Controllers", "{6F2FE170-B15A-4A80-8ACA-A643961213AA}"
+	ProjectSection(SolutionItems) = preProject
+		src\Controllers\DefaultLoginController.cs = src\Controllers\DefaultLoginController.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{8BB9E750-2820-4698-9B8E-9FCFCAB86EB4}"
+	ProjectSection(SolutionItems) = preProject
+		src\Models\DefaultLoginSearchModel.cs = src\Models\DefaultLoginSearchModel.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "View", "View", "{6C3D4185-FDB3-417D-AFCD-7D8794FF0976}"
+	ProjectSection(SolutionItems) = preProject
+		src\View\DefaultLogin.xaml = src\View\DefaultLogin.xaml
+		src\View\DefaultLogin.xaml.cs = src\View\DefaultLogin.xaml.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModel", "ViewModel", "{05065376-B152-47D5-8DD0-77056A55A284}"
+	ProjectSection(SolutionItems) = preProject
+		src\ViewModel\DefaultLoginViewModel.cs = src\ViewModel\DefaultLoginViewModel.cs
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Windows.Controls.Login.DefaultLogin(dotNet)", "dotNet\Atomus.Windows.Controls.Login.DefaultLogin(dotNet).csproj", "{79353815-FB42-4A52-AC75-001D3F5F0C65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{79353815-FB42-4A52-AC75-001D3F5F0C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79353815-FB42-4A52-AC75-001D3F5F0C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79353815-FB42-4A52-AC75-001D3F5F0C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79353815-FB42-4A52-AC75-001D3F5F0C65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6F2FE170-B15A-4A80-8ACA-A643961213AA} = {E1201EDA-7B30-4AB8-8559-953DB3F94400}
+		{8BB9E750-2820-4698-9B8E-9FCFCAB86EB4} = {E1201EDA-7B30-4AB8-8559-953DB3F94400}
+		{6C3D4185-FDB3-417D-AFCD-7D8794FF0976} = {E1201EDA-7B30-4AB8-8559-953DB3F94400}
+		{05065376-B152-47D5-8DD0-77056A55A284} = {E1201EDA-7B30-4AB8-8559-953DB3F94400}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EE111134-A7F8-4669-B471-656BD483583D}
+	EndGlobalSection
+EndGlobal
